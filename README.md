@@ -9,7 +9,9 @@ Included:
 
 * [Sbt](https://www.scala-sbt.org/) (build tool)
 * [Scalatest](https://www.scalatest.org/) (testing library)
+* [ScalaCheck](https://www.scalatest.org/plus/scalacheck) (property-based testing library)
 * [Mockito](https://www.scalatest.org/plus/mockito) (mocking library)
+* [Cats](https://typelevel.org/cats/) (functional programming library)
 * [Scalafmt](https://scalameta.org/scalafmt/) (code formatting)
 * [Scalafix](https://scalacenter.github.io/scalafix/) (refactoring and linting)
 * [Scala Steward](https://github.com/scala-steward-org/scala-steward) (automatic dependency updates)
