@@ -1,7 +1,7 @@
 import Dependencies.*
 import sbt.Keys.libraryDependencies
 
-ThisBuild / scalaVersion := "2.13.11"
+ThisBuild / scalaVersion := "2.13.12"
 ThisBuild / organization := "nl.codecraftr"
 ThisBuild / semanticdbEnabled := true
 ThisBuild / semanticdbVersion := scalafixSemanticdb.revision
