@@ -1,3 +1,3 @@
 #!/bin/bash
 
-sbt test scalafmtCheckAll "scalafixAll --check"
+./sbtx test scalafmtCheckAll "scalafixAll --check"

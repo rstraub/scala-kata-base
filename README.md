@@ -8,6 +8,7 @@ Starter project for Code Katas in Scala. Batteries included.
 Included:
 
 * [Sbt](https://www.scala-sbt.org/) (build tool)
+* [Sbt Extras](https://github.com/dwijnand/sbt-extras) (wrapper script)
 * [Scalatest](https://www.scalatest.org/) (testing library)
 * [ScalaCheck](https://www.scalatest.org/plus/scalacheck) (property-based testing library)
 * [Mockito](https://www.scalatest.org/plus/mockito) (mocking library)
@@ -20,19 +21,22 @@ Included:
 
 ## Installation
 
-This project requires some tooling on your machine, as described in the `.sdkmanrc`. If you use sdkman `cd` into the
+This project requires a JDK on your machine, as described in the `.sdkmanrc`. If you use sdkman `cd` into the
 root of this project and run:
 
 ```shell
 sdk env install
 ```
 
-to install the required sdks. You can also install them yourself.
+to install it. You can also install them yourself.
+
+The build tool (Sbt) and Scala are installed automatically by the wrapper script located at `./sbtx`.
+It will grab the correct versions based off the project configuration.
 
 ## Compile
 
 ```shell
-sbt compile
+./sbtx compile
 ```
 
 ## Tests
@@ -40,23 +44,23 @@ sbt compile
 Run tests once:
 
 ```shell
-sbt test
+./sbtx test
 ```
 
 Or in watch mode:
 
 ```shell
-sbt ~test
+./sbtx ~test
 ```
 
 ## Formatting
 
 ```shell
-sbt scalafmtAll
+./sbtx scalafmtAll
 ```
 
 ```shell
-sbt scalafixAll
+./sbtx scalafixAll
 ```
 
 ## Git Hooks
