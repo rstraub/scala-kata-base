@@ -18,8 +18,12 @@ class CanarySpec
   }
 
   "scalatest" should {
-    "run tests" in {
-      true shouldBe true
+    "run tests (a branch)" in {
+      Main.hello("dev") shouldEqual "Hello, creator!"
+    }
+
+    "run tests (another branch)" in {
+      Main.hello("world") shouldEqual "Hello, world!"
     }
   }
 
