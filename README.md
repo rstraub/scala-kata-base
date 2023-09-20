@@ -64,6 +64,16 @@ Or in watch mode:
 ./sbtx scalafixAll
 ```
 
+## Code Coverage
+
+For generating a code coverage report run:
+
+```shell
+./sbtx clean coverage test coverageReport
+```
+
+Which generates a report in `target/scala-2.13/scoverage-report`.
+
 ## Git Hooks
 
 To install the git hooks run:
