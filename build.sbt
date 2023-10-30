@@ -7,6 +7,8 @@ ThisBuild / semanticdbEnabled := true
 ThisBuild / semanticdbVersion := scalafixSemanticdb.revision
 ThisBuild / scalacOptions ++= Seq("-Wunused:imports")
 ThisBuild / scalafixScalaBinaryVersion := "2.13"
+ThisBuild / scalacOptions += "-target:jvm-21"
+ThisBuild / javacOptions ++= Seq("-source", "21", "-target", "21")
 
 lazy val root = project
   .enablePlugins(ScalafmtPlugin)
