@@ -28,3 +28,4 @@ jobs:
                     files: ./cobertura.xml
                     name: scala-kata-base
                     token: ${{ secrets.CODECOV_TOKEN }}
+                    slug: rstraub/scala-kata-base
