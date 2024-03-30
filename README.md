@@ -9,6 +9,7 @@ Starter project for Code Katas in Scala. Batteries included.
 Included:
 
 * [Sbt](https://www.scala-sbt.org/) (build tool)
+* [Sbt-tpolecat](https://github.com/typelevel/sbt-tpolecat) (strict compiler options)
 * [Sbt Extras](https://github.com/dwijnand/sbt-extras) (wrapper script)
 * [Scalatest](https://www.scalatest.org/) (testing library)
 * [ScalaCheck](https://www.scalatest.org/plus/scalacheck) (property-based testing library)
