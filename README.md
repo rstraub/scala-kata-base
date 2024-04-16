@@ -13,6 +13,7 @@ Included:
 * [Sbt Extras](https://github.com/dwijnand/sbt-extras) (wrapper script)
 * [Scalatest](https://www.scalatest.org/) (testing library)
 * [ScalaCheck](https://www.scalatest.org/plus/scalacheck) (property-based testing library)
+* [ApprovalTests](https://approvaltests.com) (approval testing library)
 * [scoverage](https://github.com/scoverage) (code coverage)
 * [Mockito](https://www.scalatest.org/plus/mockito) (mocking library)
 * [Cats](https://typelevel.org/cats/) (functional programming library)

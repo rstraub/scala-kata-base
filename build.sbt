@@ -18,8 +18,10 @@ lazy val root = project
     version := "0.1.0-SNAPSHOT",
     libraryDependencies ++= Seq(
       scalaTest,
+      scalaTestJunit,
       scalaCheck,
-      catsCore,
-      mockito
+      approvalsTests,
+      mockito,
+      catsCore
     )
   )
