@@ -9,7 +9,7 @@ object Dependencies {
   lazy val mockito = "org.scalatestplus" %% "mockito-4-11" % "3.2.18.0" % Test
   lazy val catsCore = "org.typelevel" %% "cats-core" % "2.12.0"
   lazy val approvalsTests =
-    "com.approvaltests" % "approvaltests" % "24.1.0" % Test
+    "com.approvaltests" % "approvaltests" % "24.3.0" % Test
   lazy val scalaTestJunit =
     "org.scalatestplus" %% "junit-5-10" % scalaTestVersion % Test
 }
